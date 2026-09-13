@@ -6,60 +6,24 @@
 <title>Tamjeed Ibrahim</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
 <style>
   :root {
-    --bg: #f6f7f4;
-    --surface: #ffffff;
-    --surface-2: #eef1ec;
-    --border: #dde2dc;
-    --text: #131a17;
-    --text-muted: #5b6560;
-    --accent: #1f9a7d;
-    --accent-strong: #146856;
-    --accent-soft: #dcf0e9;
-    --violet: #5169d6;
-    --violet-soft: #e4e8fb;
-    --warm: #b06a24;
-    --warm-soft: #f4e5d1;
-    --shadow: 0 1px 2px rgba(19,26,23,0.05), 0 12px 32px -16px rgba(19,26,23,0.14);
-  }
-
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-      --bg: #0a0f0d;
-      --surface: #121a17;
-      --surface-2: #172019;
-      --border: #223028;
-      --text: #eef2ef;
-      --text-muted: #9aaba3;
-      --accent: #3fceac;
-      --accent-strong: #7fe6cb;
-      --accent-soft: #123027;
-      --violet: #8fa1ff;
-      --violet-soft: #171d33;
-      --warm: #e3a862;
-      --warm-soft: #302113;
-      --shadow: 0 1px 2px rgba(0,0,0,0.4), 0 16px 40px -18px rgba(0,0,0,0.6);
-    }
-  }
-
-  :root[data-theme="dark"] {
-    --bg: #0a0f0d;
-    --surface: #121a17;
-    --surface-2: #172019;
-    --border: #223028;
-    --text: #eef2ef;
-    --text-muted: #9aaba3;
-    --accent: #3fceac;
-    --accent-strong: #7fe6cb;
-    --accent-soft: #123027;
-    --violet: #8fa1ff;
-    --violet-soft: #171d33;
-    --warm: #e3a862;
-    --warm-soft: #302113;
-    --shadow: 0 1px 2px rgba(0,0,0,0.4), 0 16px 40px -18px rgba(0,0,0,0.6);
+    --bg: #070B18;
+    --surface: rgba(15, 23, 42, 0.72);
+    --surface-2: rgba(17, 24, 39, 0.72);
+    --border: rgba(148, 163, 184, 0.18);
+    --text: #F8FAFC;
+    --text-muted: #94A3B8;
+    --accent: #38BDF8;
+    --accent-strong: #67E8F9;
+    --accent-soft: rgba(56, 189, 248, 0.12);
+    --violet: #A78BFA;
+    --violet-soft: rgba(167, 139, 250, 0.12);
+    --warm: #FBBF24;
+    --warm-soft: rgba(251, 191, 36, 0.12);
+    --shadow: 0 10px 40px rgba(0,0,0,0.28);
   }
 
   * { box-sizing: border-box; }
@@ -70,12 +34,12 @@
     margin: 0;
     background: var(--bg);
     color: var(--text);
-    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
   }
 
-  h1, h2, h3 { font-family: 'Manrope', -apple-system, sans-serif; text-wrap: balance; margin: 0; }
+  h1, h2, h3 { font-family: 'Space Grotesk', -apple-system, sans-serif; text-wrap: balance; margin: 0; }
 
   .shell { max-width: 1040px; margin: 0 auto; padding: 0 1.75rem; }
 
@@ -99,7 +63,7 @@
   }
 
   .brand {
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     font-weight: 700;
     font-size: 1.05rem;
     letter-spacing: -0.01em;
@@ -151,7 +115,7 @@
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'JetBrains Mono', monospace;
     font-size: 0.78rem;
     color: var(--accent-strong);
     background: var(--accent-soft);
@@ -198,7 +162,7 @@
   .hero-cta { display: flex; flex-wrap: wrap; gap: 0.85rem; margin-top: 2rem; }
 
   .btn {
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 0.92rem;
     text-decoration: none;
@@ -218,7 +182,7 @@
 
   .hero-links { display: flex; gap: 1.1rem; margin-top: 2.2rem; }
   .hero-links a {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'JetBrains Mono', monospace;
     font-size: 0.82rem;
     text-decoration: none;
     color: var(--text-muted);
@@ -233,7 +197,7 @@
   .section-head { margin-bottom: 2.6rem; max-width: 42rem; }
 
   .eyebrow {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'JetBrains Mono', monospace;
     font-size: 0.72rem;
     letter-spacing: 0.14em;
     text-transform: uppercase;
@@ -273,7 +237,7 @@
   .edu-card .school { font-weight: 600; font-size: 0.95rem; }
   .edu-card .degree { color: var(--text-muted); font-size: 0.86rem; margin-top: 0.2rem; }
   .edu-card .when {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'JetBrains Mono', monospace;
     font-size: 0.75rem;
     color: var(--accent-strong);
     white-space: nowrap;
@@ -294,12 +258,12 @@
   }
   .tl-item:first-child { border-top: none; padding-top: 0; }
 
-  .tl-date { font-family: 'IBM Plex Mono', monospace; font-size: 0.78rem; color: var(--accent-strong); padding-top: 0.2rem; }
+  .tl-date { font-family: 'JetBrains Mono', monospace; font-size: 0.78rem; color: var(--accent-strong); padding-top: 0.2rem; }
 
   .tl-tag-recent {
     display: inline-block;
     margin-top: 0.4rem;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'JetBrains Mono', monospace;
     font-size: 0.68rem;
     color: var(--accent-strong);
     background: var(--accent-soft);
@@ -307,7 +271,7 @@
     border-radius: 999px;
   }
 
-  .tl-role { font-weight: 700; font-size: 1.05rem; font-family: 'Manrope', sans-serif; }
+  .tl-role { font-weight: 700; font-size: 1.05rem; font-family: 'Space Grotesk', sans-serif; }
   .tl-org { color: var(--text-muted); font-size: 0.92rem; margin-top: 0.15rem; }
 
   .tl-desc { margin: 0.7rem 0 0; padding-left: 1.1rem; }
@@ -316,7 +280,7 @@
 
   .tag-row { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.85rem; }
   .tag {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'JetBrains Mono', monospace;
     font-size: 0.72rem;
     padding: 0.28rem 0.6rem;
     border-radius: 6px;
@@ -339,7 +303,7 @@
     box-shadow: var(--shadow);
   }
 
-  .skill-card h3 { font-size: 0.92rem; font-weight: 700; margin-bottom: 0.9rem; font-family: 'Manrope', sans-serif; }
+  .skill-card h3 { font-size: 0.92rem; font-weight: 700; margin-bottom: 0.9rem; font-family: 'Space Grotesk', sans-serif; }
   .skill-card .chip-row { display: flex; flex-wrap: wrap; gap: 0.45rem; }
   .skill-card .chip {
     font-size: 0.82rem;
@@ -368,7 +332,7 @@
   .project-card h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.2rem; }
 
   .status {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'JetBrains Mono', monospace;
     font-size: 0.68rem;
     letter-spacing: 0.03em;
     padding: 0.22rem 0.6rem;
@@ -389,7 +353,7 @@
 
   .project-card .view-link {
     margin-top: 1rem;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'JetBrains Mono', monospace;
     font-size: 0.8rem;
     text-decoration: none;
     color: var(--accent-strong);
@@ -409,7 +373,7 @@
     gap: 0.6rem;
     align-items: flex-start;
   }
-  .cert .mark { color: var(--warm); font-family: 'IBM Plex Mono', monospace; font-size: 0.78rem; margin-top: 0.15rem; }
+  .cert .mark { color: var(--warm); font-family: 'JetBrains Mono', monospace; font-size: 0.78rem; margin-top: 0.15rem; }
 
   .achieve-row { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 1.6rem; }
   .achieve-row .pill {
@@ -429,7 +393,7 @@
   .contact-info p { color: var(--text-muted); font-size: 0.96rem; margin: 0; }
 
   .contact-item { display: flex; flex-direction: column; gap: 0.15rem; }
-  .contact-item .label { font-family: 'IBM Plex Mono', monospace; font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent-strong); }
+  .contact-item .label { font-family: 'JetBrains Mono', monospace; font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent-strong); }
   .contact-item a, .contact-item span.value { font-size: 0.98rem; text-decoration: none; }
   .contact-item a:hover { color: var(--accent-strong); }
 
@@ -453,7 +417,7 @@
   }
 
   form.msg-form input, form.msg-form textarea {
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 0.92rem;
     padding: 0.65rem 0.8rem;
     border-radius: 8px;
@@ -469,7 +433,7 @@
   }
 
   form.msg-form button {
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 0.92rem;
     padding: 0.75rem 1.2rem;
@@ -497,6 +461,71 @@
     html { scroll-behavior: auto; }
     * { transition: none !important; }
   }
+
+  /* ---------- AI / ML premium visual redesign ---------- */
+  body {
+    min-height: 100vh;
+    background:
+      radial-gradient(circle at 15% 10%, rgba(56,189,248,.15), transparent 26rem),
+      radial-gradient(circle at 85% 20%, rgba(139,92,246,.13), transparent 28rem),
+      radial-gradient(circle at 50% 80%, rgba(34,211,238,.07), transparent 30rem),
+      #070B18;
+    position: relative;
+  }
+  body::before {
+    content:""; position:fixed; inset:0; pointer-events:none; z-index:-1; opacity:.35;
+    background-image: linear-gradient(rgba(148,163,184,.045) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(148,163,184,.045) 1px, transparent 1px);
+    background-size: 48px 48px;
+    mask-image: linear-gradient(to bottom, black, transparent 85%);
+  }
+  .shell { max-width: 1180px; }
+  nav { background: rgba(7,11,24,.72); border-bottom:1px solid var(--border); }
+  nav .shell { height:4.5rem; }
+  .brand .mark { border-radius:10px; box-shadow:0 0 28px rgba(56,189,248,.28); }
+  .nav-cta { background: linear-gradient(135deg,#38BDF8,#8B5CF6); color:#fff; box-shadow:0 8px 25px rgba(56,189,248,.18); }
+  .hero { padding: 8rem 0 6rem; min-height: 88vh; display:flex; align-items:center; }
+  .hero h1 { font-size:clamp(3rem,7vw,5.6rem); max-width:1000px; }
+  .hero h1 .grad { background:linear-gradient(100deg,#67E8F9 5%,#38BDF8 45%,#A78BFA 100%); -webkit-background-clip:text; background-clip:text; }
+  .badge { border-color:rgba(56,189,248,.22); box-shadow:0 0 24px rgba(56,189,248,.06); }
+  .hero .lead { font-size:clamp(1.15rem,2vw,1.45rem); }
+  .btn { border-radius:12px; }
+  .btn-primary { background:linear-gradient(135deg,#38BDF8,#6366F1); color:white; box-shadow:0 10px 30px rgba(56,189,248,.18); }
+  .btn-ghost, .edu-card, .skill-card, .project-card, .cert, form.msg-form {
+    backdrop-filter: blur(16px);
+  }
+  section { border-top:1px solid rgba(148,163,184,.1); }
+  section.alt { background:linear-gradient(90deg,rgba(15,23,42,.35),rgba(30,41,59,.22)); }
+  .eyebrow { color:#67E8F9; }
+  .section-head h2 { font-size:clamp(2rem,4vw,3rem); }
+  .edu-card, .skill-card, .project-card, .cert, form.msg-form {
+    background:linear-gradient(145deg,rgba(30,41,59,.72),rgba(15,23,42,.58));
+    border-color:rgba(148,163,184,.16);
+    transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease;
+  }
+  .edu-card:hover, .skill-card:hover, .project-card:hover, .cert:hover {
+    transform:translateY(-5px);
+    border-color:rgba(56,189,248,.45);
+    box-shadow:0 20px 50px rgba(0,0,0,.3),0 0 28px rgba(56,189,248,.06);
+  }
+  .skill-card h3::before {
+    content:"◈"; color:var(--accent); margin-right:.55rem;
+  }
+  .chip, .tag { background:rgba(15,23,42,.75)!important; border-color:rgba(148,163,184,.15)!important; }
+  .project-card { border-radius:18px; position:relative; overflow:hidden; }
+  .project-card::before {
+    content:""; position:absolute; inset:0 0 auto; height:2px;
+    background:linear-gradient(90deg,#38BDF8,transparent,#A78BFA);
+  }
+  .status.completed { color:#67E8F9; background:rgba(34,211,238,.1); }
+  .contact-grid { align-items:start; }
+  footer.site-footer { background:rgba(7,11,24,.65); }
+  @media(max-width:720px){
+    .hero{padding:6rem 0 4rem;min-height:auto}
+    .hero-links{flex-wrap:wrap}
+    .nav-cta{padding:.5rem .75rem}
+  }
+
 </style>
 </head>
 <body>
@@ -520,9 +549,9 @@
 
 <section class="hero" style="border-top:none;">
   <div class="shell">
-    <span class="badge"><span class="dot"></span>Available for cybersecurity &amp; AI engineering roles</span>
+    <span class="badge"><span class="dot"></span>OPEN TO AI, CYBERSECURITY &amp; ENGINEERING ROLES</span>
     <h1>Hi, I'm <span class="grad">Mohammad Tamjeed Ibrahim</span></h1>
-    <p class="lead">a final-year Cybersecurity, IoT &amp; Blockchain Engineering graduate (2026) and Ethical Hacker.</p>
+    <p class="lead">Cybersecurity Engineer <span style="color:var(--accent)">×</span> AI &amp; Agentic Systems Enthusiast.</p>
     <p class="desc">Hands-on across vulnerability assessment, penetration testing, OSINT investigation, and applied AI/process intelligence &mdash; skilled in Kali Linux, Nmap, Wireshark, Burp Suite, Nessus, and Agentic AI/Process Mining tools such as Celonis. Looking to bring analytical rigor to a cybersecurity or junior AI engineering team.</p>
     <div class="hero-cta">
       <a class="btn btn-primary" href="#projects">View My Work</a>
